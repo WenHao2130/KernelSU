@@ -15,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Archive
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.TaskAlt
 import androidx.compose.material.icons.outlined.Block
 import androidx.compose.material.icons.outlined.CheckCircle
 import androidx.compose.material.icons.outlined.Warning
@@ -252,7 +253,7 @@ private fun StatusCard(
                         else -> "LEGACY"
                     }
 
-                    Icon(Icons.Outlined.CheckCircle, stringResource(R.string.home_working))
+                    Icon(Icons.Filled.TaskAlt, stringResource(R.string.home_working))
                     Column(Modifier.padding(start = 20.dp)) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
